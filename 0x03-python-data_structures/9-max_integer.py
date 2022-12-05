@@ -8,5 +8,3 @@ def max_integer(my_list=[]):
             if i > max_int:
                 max_int = i
         return max_int
-list = [1, 90, 2, 13, 34, -13, 5, 3]
-print(max_integer(list))
