@@ -5,7 +5,7 @@ def square_matrix_simple(matrix=[]):
     for row in new_matrix:
         cidx = 0
         for num in row:
-           matrix[ridx][cidx] = num ** 2
-           cidx += 1
+            matrix[ridx][cidx] = num ** 2
+            cidx += 1
         ridx += 1
     return new_matrix
