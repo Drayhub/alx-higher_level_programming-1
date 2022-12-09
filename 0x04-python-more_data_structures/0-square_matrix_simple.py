@@ -9,7 +9,3 @@ def square_matrix_simple(matrix=[]):
            cidx += 1
         ridx += 1
     return new_matrix
-
-# lst = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-# square = square_matrix_simple(lst)
-# print("{}".format([i for i in square]))
