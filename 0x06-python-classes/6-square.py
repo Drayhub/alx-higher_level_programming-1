@@ -117,8 +117,6 @@ class Square:
                 if self.position[0] > 0:
                     for j in range(int(self.position[0])):
                         print(" ", end="")
-                if self.position[1] > 0:
-                    pass
                 for k in range(num):
                     print('#', end="")
                 print()
