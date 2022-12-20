@@ -7,8 +7,9 @@ can print to stdout the square using #'s
 
 """
 
+
 class Square:
-    """ 
+    """
     Class Square definition
 
     Args:
@@ -25,8 +26,9 @@ class Square:
         my_print(self)
 
     """
-    def __init__(self, size=0, position=(0,0)):
-        """ 
+
+    def __init__(self, size=0, position=(0, 0)):
+        """
         Initializes square
 
         Attributes:
@@ -43,7 +45,7 @@ class Square:
 
         Returns:
             area
-        
+
         """
 
         return (self.__size) ** 2
@@ -54,7 +56,7 @@ class Square:
         Getter
 
         Return: size
-        
+
         """
 
         return self.__size
@@ -81,7 +83,7 @@ class Square:
         Getter
 
         Returns: position
-        
+
         """
         return self.__position
 
@@ -92,7 +94,7 @@ class Square:
 
         Args:
             value (tuple): sets position to value if tuple(int, int)
-        
+
         """
         if type(value) is not tuple:
             raise TypeError('position must be a tuple of 2 positive integers')
@@ -102,7 +104,7 @@ class Square:
     def my_print(self):
         """
         Prints square as #'s
-        
+
         """
         if self.__size == 0:
             print()

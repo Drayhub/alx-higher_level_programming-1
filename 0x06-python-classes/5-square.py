@@ -6,8 +6,10 @@ can access and update size
 can print to stdout the square using #'s
 
 """
+
+
 class Square:
-    """ 
+    """
     Class Square definition
 
     Args:
@@ -21,13 +23,14 @@ class Square:
         my_print(self)
 
     """
+
     def __init__(self, size=0):
         """
         Initializes square
 
         Attributes:
             size (int): default to 0 if None, don't use __size to call setter
-        
+
         """
         self.size = size
 
@@ -37,7 +40,7 @@ class Square:
 
         Returns:
             area
-        
+
         """
         return self.__size ** 2
 
@@ -47,7 +50,7 @@ class Square:
         Getter
 
         Return: size
-        
+
         """
         return self.__size
 
@@ -70,7 +73,7 @@ class Square:
     def my_print(self):
         """
         Prints square as #'s
-        
+
         """
         if self.__size == 0:
             print()

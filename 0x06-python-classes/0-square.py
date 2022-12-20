@@ -4,9 +4,11 @@ Module 1-square
 Defines class Square
 
 """
+
+
 class Square:
-    """ 
-    Class Square definition
+    """
+    Empty class
 
     """
     pass
